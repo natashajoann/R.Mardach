@@ -1,0 +1,112 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(60,60,60);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(60,60,60);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Header */
+nav{
+  padding: 1.75rem 0;
+}
+
+.main-title a{
+  border-bottom:2px solid white;
+}
+
+.space-around{
+  display:flex;
+  justify-content:space-around;
+}
+
+.main-title a:hover{
+  color:#927dd1;
+  border-bottom:2px solid #927dd1;
+transition: 0.5s;
+}
+
+/* About */
+
+.about-img{
+  background-image: url("https://i0.wp.com/avancegen.com/wp-content/uploads/2017/04/dra_mardach.jpg?w=750");
+  background-size: cover;
+  background-position:center;
+  padding: 8rem;
+}
+
+.about-info{
+  padding:4rem;
+  background-color:#e1d6d6a3;
+  height:70vh;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about{
+  padding:3rem;
+  background-image:url("/images/orfeu-de-santateresa-1117083-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.about-text{
+  margin-left:30px;
+}
+
+/* Services */
+.services{
+  margin-bottom:3rem;
+}
+.service-1-img{
+  background-image: url("/images/xuan-nguyen-675894-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:3rem;
+}
+
+.service-2-img{
+  background-image: url("/images/jorge-aguilar-731953-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.service-3-img{
+  background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.service-4-img{
+  background-image: url("/images/jodie-stallard-624513-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.services div{
+  padding:3rem;
+}
+
+.services h2{
+  margin-bottom:15px;
+}
+
+.services span{
+  color:#edd04e;
+}
