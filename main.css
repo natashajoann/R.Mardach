@@ -6,6 +6,11 @@
 
 body {
   color: rgb(60,60,60);
+  max-width:100%;
+}
+
+.text-right{
+  text-align:right;
 }
 
 img {
@@ -22,6 +27,13 @@ html{
   scroll-behavior: smooth;
 }
 
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+}
 
 /* Header */
 nav{
@@ -43,6 +55,27 @@ nav{
 transition: 0.5s;
 }
 
+/* title */
+
+.title{height:70vh;
+background-image: url("/images/pawel-czerwinski-1112698-unsplash.jpg");
+background-position:center;
+background-size:cover;
+}
+
+.title-text{
+  margin-top:11rem;
+  margin-right:3rem;
+}
+
+/* Sub-Title */
+.sub-title{
+  padding: 3rem;
+  background-color:#f8e7a6;
+}
+
+
+
 /* About */
 
 .about-img{
@@ -53,17 +86,14 @@ transition: 0.5s;
 }
 
 .about-info{
-  padding:4rem;
-  background-color:#e1d6d6a3;
-  height:70vh;
+  padding:2rem;
+  margin: 2rem 4rem;
+  background-color:#d5d5d5ba;
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .about{
   padding:3rem;
-  background-image:url("/images/orfeu-de-santateresa-1117083-unsplash.jpg");
-  background-position:center;
-  background-size:cover;
 }
 
 .about-text{
@@ -71,9 +101,6 @@ transition: 0.5s;
 }
 
 /* Services */
-.services{
-  margin-bottom:3rem;
-}
 .service-1-img{
   background-image: url("/images/xuan-nguyen-675894-unsplash.jpg");
   background-position:center;
@@ -109,4 +136,44 @@ transition: 0.5s;
 
 .services span{
   color:#edd04e;
+}
+
+/* About Paralax */
+.paralax{
+background-image: url("/images/jorge-aguilar-731953-unsplash.jpg");
+background-attachment:fixed;
+background-position: top left;
+background-size:cover;
+padding-bottom:20px;
+}
+
+/* Blog */
+.blog{
+  padding:3rem 1.5rem;
+  text-align:center;
+}
+
+.blog div{
+  padding: 0 35px;
+}
+
+/* footer */
+
+
+footer{
+  padding:3rem;
+  background-color:#120a2c;
+  color:#b7b7b7;
+}
+
+footer a{
+  color:#b7b7b7;
+}
+
+.links{
+  text-align:center;
+}
+
+.contact-input{
+  width:63%;
 }
