@@ -1,0 +1,21 @@
+---
+layout: default
+title: Rebecca Mardach | blog
+banner-heading: All Posts
+---
+
+<section>
+  <h2> Featured Posts </h2>
+<div class="grid">
+
+{% for post in site.posts %}
+  <div class="post-preview col-3"> </div>
+    <img src="{{post.featured-image}}"/>
+    <h3> {{post.title}}</h3>
+    <p> {{post.description}}</p>
+    <p> {{post.author}}</p>
+    <a href="{{post.url}}"> Read More </a>
+{% endfor %}
+
+</div>
+</section>

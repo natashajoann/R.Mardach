@@ -170,12 +170,8 @@ padding-bottom:20px;
 }
 
 .blog-loop-info {
-  background-color: #fde49f;
   width: 90%;
   padding:0.5rem;
-  margin: -2rem auto 1rem;
-  z-index: 9;
-  position: relative;
 }
 .post-preview{
   padding:25px;
