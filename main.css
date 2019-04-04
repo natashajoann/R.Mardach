@@ -43,13 +43,23 @@ html{
   margin:0;
 }
 
+h1, h2, h3, h4, a{
+  font-family: 'Oswald', sans-serif;
+
+}
 /* Header */
 nav{
-  padding: 1.75rem 0;
+  padding: 0.5rem 1.75rem;
+}
+
+.logo{
+  font-size:40px;
+  line-height:36px;
 }
 
 .main-title a{
   border-bottom:2px solid white;
+  padding-top:3rem;
 }
 
 .space-around{
@@ -74,6 +84,10 @@ background-size:cover;
 .title-text{
   margin-top:11rem;
   margin-right:3rem;
+}
+
+.signup-box{
+  padding:12rem 0.5rem 0 9rem
 }
 
 /* Sub-Title */
@@ -122,6 +136,7 @@ background-size:cover;
   background-size:cover;
 }
 
+
 .service-3-img{
   background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
   background-position:center;
@@ -136,6 +151,11 @@ background-size:cover;
 
 .services div{
   padding:3rem;
+}
+
+
+.service-2 p{
+  padding-bottom:11rem;
 }
 
 .services h2{
@@ -208,4 +228,5 @@ footer a{
 
 .contact-input{
   width:63%;
+  padding:8px;
 }
