@@ -1,21 +1,21 @@
 ---
-layout: default
+layout: blog
 title: Rebecca Mardach | blog
 banner-heading: All Posts
 ---
 
-<section>
-  <h2> Featured Posts </h2>
-<div class="grid">
+<section class="grid blog-posts">
+  <h2 class="col-12 centered"> Featured Posts </h2>
 
 {% for post in site.posts %}
-  <div class="post-preview col-3"> </div>
-    <img src="{{post.featured-image}}"/>
+  <div class="post-preview col-3 centered">
+    <img src="{{post.featured_image}}"/>
     <h3> {{post.title}}</h3>
+    <p> by {{post.author}}</p>
     <p> {{post.description}}</p>
-    <p> {{post.author}}</p>
     <a href="{{post.url}}"> Read More </a>
+</div>
+
 {% endfor %}
 
-</div>
 </section>

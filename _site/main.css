@@ -47,6 +47,11 @@ h1, h2, h3, h4, a{
   font-family: 'Oswald', sans-serif;
 
 }
+
+.centered{
+  text-align:center;
+}
+
 /* Header */
 nav{
   padding: 0.5rem 1.75rem;
@@ -209,6 +214,32 @@ padding-bottom:20px;
   top:0;
 }
 
+/* contact  */
+.contact{
+  height: 60vh;
+  padding: 5rem 3rem;
+}
+
+textarea{
+  padding: 15px 10px 50px;
+}
+
+
+.contact input, textarea{
+  margin-bottom:15px;
+  width:85%;
+}
+
+.contact h2{
+  margin-bottom:15px;
+  line-height:25px;
+  width:85%;
+}
+
+.contact p{
+  padding-left: 10px;
+  padding-top:40px;
+}
 /* footer */
 
 
