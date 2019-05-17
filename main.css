@@ -52,9 +52,23 @@ h1, h2, h3, h4, a{
   text-align:center;
 }
 
+
+.paralax{
+  background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
+  background-attachment:fixed;
+  background-position: top left;
+  background-size:cover;
+}
+
+
 /* Header */
+header{
+  background-color:white;
+}
+
 nav{
   padding: 0.5rem 1.75rem;
+  padding-bottom:0;
 }
 
 .logo{
@@ -63,8 +77,10 @@ nav{
 }
 
 .main-title a{
-  border-bottom:2px solid white;
+  border-bottom:2px solid #222222;
   padding-top:3rem;
+  margin-bottom:-3px;
+  z-index:5;
 }
 
 .space-around{
@@ -78,28 +94,17 @@ nav{
 transition: 0.5s;
 }
 
+hr{
+  border-bottom:2px solid #222222;
+}
+
 /* title */
 
-.title{height:70vh;
-background-image: url("/images/pawel-czerwinski-1112698-unsplash.jpg");
-background-position:center;
-background-size:cover;
-}
-
-.title-text{
-  margin-top:11rem;
-  margin-right:3rem;
-}
-
 .signup-box{
-  padding:12rem 0.5rem 0 9rem
+  padding:11rem 10.5rem;
+  height: 78vh;
 }
 
-/* Sub-Title */
-.sub-title{
-  padding: 3rem;
-  background-color:#f8e7a6;
-}
 
 
 
@@ -113,10 +118,16 @@ background-size:cover;
 }
 
 .about-info{
-  padding:2rem;
-  margin: 2rem 4rem;
-  background-color:#d5d5d5ba;
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding:4rem;
+  background-color:rgba(250,250,250);
+}
+
+.push-up{
+  padding:1rem;
+}
+
+.gradient{
+background-image: linear-gradient(to top, rgba(250, 250, 250, 1), rgba(250, 250, 250, 0.6), rgba(250,250, 250, 0));
 }
 
 .about{
@@ -127,9 +138,40 @@ background-size:cover;
   margin-left:30px;
 }
 
+
+.about-info nav a {
+  display:inline-block;
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C3BFBC;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    padding:5px;
+}
+
+.dropdown-content a:hover {
+  font-style: italic;
+}
+
+.dropdown-nav {
+  position:relative;
+  cursor: pointer;
+}
+
+.dropdown-nav h3{
+  border-bottom: 2px solid;
+  width: 80%;
+  margin:auto;
+}
+
 /* Services */
 .service-1-img{
-  background-image: url("/images/xuan-nguyen-675894-unsplash.jpg");
+  background-image: url("/images/orfeu-de-santateresa-1117083-unsplash.jpg");
   background-position:center;
   background-size:cover;
   padding:3rem;
@@ -154,17 +196,40 @@ background-size:cover;
   background-size:cover;
 }
 
-.services div{
+.services{
+  padding:1rem;
+  background-color:rgb(250,250,250);
+}
+
+.push-right{
+  margin-right:-30px;
+  margin-left:30px;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  background-color:#e4e1d5b3;
+  z-index:3;
   padding:3rem;
 }
 
-
-.service-2 p{
-  padding-bottom:11rem;
+.push-left{
+  margin-left:-30px;
+  margin-right:30px;
 }
 
 .services h2{
   margin-bottom:15px;
+}
+
+.services-title h2{
+  text-align:center;
+  margin-left:4rem;
+  width:90%;
+  padding: 2rem;
+  background-color: #cddddd73;
+}
+.slideshow-container{
+  width:90%;
+  margin:auto;
 }
 
 .services span{
@@ -173,17 +238,17 @@ background-size:cover;
 
 /* About Paralax */
 .paralax{
-background-image: url("/images/jorge-aguilar-731953-unsplash.jpg");
+background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
 background-attachment:fixed;
 background-position: top left;
 background-size:cover;
-padding-bottom:20px;
 }
 
 /* Blog */
 .blog{
   padding:3rem 1.5rem;
   text-align:center;
+  background-color:rgb(250,250,250);
 }
 
 
