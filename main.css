@@ -213,7 +213,7 @@ h1, h2, h3, h4, a{
 
 
 .about-info{
-  padding:5rem 0rem;
+  padding:5rem 0rem 0rem;
   background-color:rgba(250,250,250);
   font-size:18px;
 }
