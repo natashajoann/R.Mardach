@@ -210,8 +210,6 @@ h1, h2, h3, h4, a{
 /* About */
 
 
-
-
 .about-info{
   padding:5rem 0rem 0rem;
   background-color:rgba(250,250,250);
@@ -267,6 +265,11 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
   margin-bottom:15px;
 }
 
+.avance{
+  text-decoration:none;
+  color:#edd04e;
+}
+
 .avancegen h3, ul, h2{
   margin:auto;
 }
@@ -287,15 +290,15 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
 
 .button-avancegen h4{
   color:#ececec;
-  width:40%;
+  width:27%;
   margin:auto;
   border:3px solid #ececec;
   text-decoration:none;
   box-shadow:5px 5px rgb(60,60,60);
   background-color:#8ba6bee0;
   text-align:center;
-  padding:20px;
-  margin-top:36px;
+  padding:13px;
+  margin-top:22px;
 }
 
 .button-avancegen h4:hover{
