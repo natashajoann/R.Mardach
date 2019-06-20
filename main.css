@@ -373,9 +373,11 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
 .about-text span{
   font-size:30px;
   font-family:'Oswald', sans-serif;
-  padding:4rem 3rem;
 }
 
+.about-text{
+  padding:4rem 3rem;
+}
 /* .mySlides{
   display:none;
 } */
