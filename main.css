@@ -474,7 +474,7 @@ textarea{
 .contact-image{
   background-image:url("/images/jodie-stallard-624513-unsplash.jpg");
   background-size:cover;
-  background-position:centr;
+  background-position:center;
 }
 
 .contact input, textarea{
