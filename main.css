@@ -471,6 +471,11 @@ textarea{
   padding: 15px 10px 50px;
 }
 
+.contact-image{
+  background-image:url("/images/jodie-stallard-624513-unsplash.jpg");
+  background-size:cover;
+  background-position:centr;
+}
 
 .contact input, textarea{
   margin-bottom:15px;
