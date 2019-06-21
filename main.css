@@ -69,7 +69,7 @@ h1, h2, h3, h4, a{
   position:fixed;
 } */
 
-.about-info, .services, .avancegen, footer{
+.about-info, .services, .avancegen{
   position:relative;
 }
 
@@ -463,12 +463,17 @@ background-size:cover;
 
 /* contact  */
 .contact{
-  height: 60vh;
-  padding: 5rem 3rem;
+  padding: 5rem 5rem;
+}
+
+.email-info{
+  padding: 0 8rem;
+  text-align: center;
+  margin-bottom: 38px;
 }
 
 textarea{
-  padding: 15px 10px 50px;
+  padding: 15px 10px 85px;
 }
 
 .contact-img{
@@ -480,7 +485,9 @@ textarea{
 .contact input, textarea{
   margin-bottom:15px;
   width:85%;
+  padding:10px 7px;
 }
+
 
 .contact h2{
   margin-bottom:15px;
@@ -491,6 +498,10 @@ textarea{
 .contact p{
   padding-left: 10px;
   padding-top:40px;
+}
+
+.contact-button{
+  width:18%;
 }
 /* footer */
 
