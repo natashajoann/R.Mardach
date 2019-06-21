@@ -490,7 +490,7 @@ textarea{
 
 
 footer{
-  padding:5rem 0rem;
+  padding:2rem 0rem;
   background-color:#fafafa;
 }
 
@@ -627,10 +627,21 @@ footer{
 /* Blog Layout */
 .blog-layout{
   padding:1rem 3rem 3rem;
+  background-color:#fafafa;
+}
+
+.blog-menu{
+  background-color:#fafafa;
 }
 
 .blog-posts h2{
   margin-bottom:25px;
+  font-size:43px;
+}
+
+.blog-posts h4{
+  font-size:15px;
+  margin-bottom:11px;
 }
 
 .blog-menu{
@@ -658,6 +669,10 @@ footer{
 @media (max-width: 768px){
   .mobil-menu{
     display:block;
+  }
+
+  .blog-menu{
+    display:none;
   }
 
   .main-nav{
