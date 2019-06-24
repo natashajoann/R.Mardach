@@ -395,9 +395,6 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
 .about-text{
   padding:4rem 3rem;
 }
-/* .mySlides{
-  display:none;
-} */
 
 .prev, .next {
   cursor: pointer;
