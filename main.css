@@ -42,7 +42,7 @@ html{
   margin:0;
 }
 
-h1, h2, h3, h4, a{
+h1, h2, h3, h4{
   font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
@@ -194,12 +194,10 @@ h1, h2, h3, h4, a{
 
 .button-title h4{
   padding:9px;
-  width:26%;
+  width:40%;
   margin:auto;
-  border:3px solid rgb(60,60,60);
   text-decoration:none;
-  box-shadow:5px 5px rgb(99, 63, 162);
-  background-color:#fafafa;
+
 }
 
 .signup-box h4:hover{
