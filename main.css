@@ -416,7 +416,7 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
 
 /* About Paralax */
 .paralax{
-background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
+background-image: url("/images/backgroundimg.png");
 background-attachment:fixed;
 background-position: top left;
 background-size:cover;
