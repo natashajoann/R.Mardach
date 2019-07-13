@@ -642,6 +642,10 @@ footer{
   color:#b0abcb;
 }
 
+.post-preview{
+  width:80%
+}
+
 
 
 @media (max-width: 768px){
