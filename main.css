@@ -422,7 +422,7 @@ background-size:cover;
 
 /* contact  */
 .contact{
-  padding: 5rem 5rem;
+  padding: 10rem 5rem 0;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
@@ -437,6 +437,7 @@ background-size:cover;
 textarea{
   padding: 15px 10px 85px;
   width:85%;
+  margin-left:25px;
 }
 
 .contact-img{
@@ -449,6 +450,7 @@ textarea{
   margin-bottom:15px;
   width:85%;
   padding:10px 7px;
+  margin-left:25px;
 }
 
 
@@ -470,8 +472,8 @@ textarea{
 
 
 footer{
-  padding:2rem 0rem;
-  background-color:#fafafa;
+  padding:1rem 0rem;
+  background-color:#f4f2ec;
 }
 
 .links{
