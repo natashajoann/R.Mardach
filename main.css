@@ -154,6 +154,10 @@ h1, h2, h3, h4{
 
 .burger-menu li{list-style:none}
 
+  .mobile-menu-bar{
+    display:none;
+  }
+
 .logo{
   font-size:40px;
   line-height:36px;
@@ -417,7 +421,7 @@ background-size:cover;
 
 /* contact  */
 .contact{
-  padding: 8rem 5rem 2rem;
+  padding: 9rem 5rem 2rem;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
@@ -425,7 +429,7 @@ background-size:cover;
   height:94vh;
 }
 .email-info{
-  padding: 7rem 5rem 9rem;
+  padding: 0rem 5rem;
   text-align: center;
   margin-bottom: 38px;
 }
@@ -672,6 +676,39 @@ height:94vh;
 
   .about-image2, .about-image3{
     display:none;
+  }
+
+  /* title page */
+  .signup-box{
+    padding:5rem 20px;
+  }
+
+  .push-right{
+    margin:20px;
+  }
+
+  .about-me{
+    height:78vh;
+  }
+
+  /* blog page */
+  .contact{
+    padding:9rem 2rem 2rem;
+  }
+
+  .email-info{
+    padding:0;
+  }
+
+  .contact-button{
+    background-color:white;
+    font-size:17px;
+  }
+
+  .mobile-menu-bar{
+    display:block;
+    font-size:20px;
+    text-decoration:none;
   }
 
 }
