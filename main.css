@@ -67,9 +67,9 @@ h1, h2, h3, h4{
   position:fixed;
 } */
 
-.about-info, .services, .avancegen{
+/* .about-info, .services, .avancegen{
   position:relative;
-}
+} */
 
 /* Header */
 
@@ -182,7 +182,6 @@ h1, h2, h3, h4{
 
 .signup-box{
   padding:10rem 10.5rem;
-  height: 89vh;
   font-size:29px;
   line-height:52px;
   text-align:center;
@@ -205,7 +204,9 @@ color:#b0a0cb;
 }
 
 /* About */
-
+.about-me{
+  height:94vh;
+}
 
 .about-info{
   padding:5rem 0rem 0rem;
@@ -217,9 +218,6 @@ color:#b0a0cb;
   padding:1rem;
 }
 
-/* .gradient{
-background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250, 0.85), rgba(250, 250, 250, 0.67), rgba(250, 250, 250, 0));
-} */
 
 .about{
   padding:3rem;
@@ -369,6 +367,8 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
   padding: 2rem;
   background-color: #d4cddd73;
 }
+
+/* SLIDESHOW */
 .slideshow-container{
   width:90%;
   margin:auto;
@@ -396,7 +396,6 @@ background-image: linear-gradient(to top, rgb(250, 250, 250), rgba(250, 250, 250
   position: absolute;
   top: 113%;
   width: auto;
-  /* margin-top: -22px; */
   padding: 16px;
   color: rgb(60,60,60);
   font-weight: bold;
@@ -420,41 +419,6 @@ background-image: url("/images/backgroundimg.png");
 background-attachment:fixed;
 background-position: top left;
 background-size:cover;
-}
-
-/* Blog */
-.blog{
-  padding:3rem 1.5rem;
-  text-align:center;
-  background-color:rgb(250,250,250);
-}
-
-
-.blog-loop-background{
-  min-height: 29vw;
-    background-size: cover;
-    background-position: center;
-    position:relative;
-}
-
-.blog-loop-info {
-  width: 90%;
-  padding:0.5rem;
-}
-.post-preview{
-  padding:25px;
-}
-
-.overlay{
-  position:absolute;
-  height:100%;
-  width:100%;
-  padding: 5%;
-  text-align: center;
-  opacity: 0;
-  background-color: rgba(250,250,250,0.8);
-  color:rgb(90,90,90);
-  top:0;
 }
 
 /* contact  */
@@ -514,7 +478,7 @@ footer{
 
 
 /* ANIMATE CSS */
-@keyframes fadeInLeft {
+/* @keyframes fadeInLeft {
   from {
     opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -636,7 +600,7 @@ footer{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
   animation-duration:4s;
-}
+} */
 
 /* Blog Layout */
 .blog-layout{
