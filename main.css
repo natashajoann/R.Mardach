@@ -604,6 +604,7 @@ footer{
 
 .background-img-blog{
 background-image:url("images/backgroundimg.png");
+background-position:right;
 }
 
 .blog-layout{
