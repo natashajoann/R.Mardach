@@ -348,7 +348,7 @@ color:#b0a0cb;
   margin-bottom:2rem;
   background-color:#dee9eeb3;
   z-index:3;
-  padding:2rem;
+  padding:6rem 2rem;
 }
 
 .push-left{
@@ -394,7 +394,7 @@ color:#b0a0cb;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 113%;
+  top: 139%;
   width: auto;
   padding: 16px;
   color: rgb(60,60,60);
