@@ -684,6 +684,7 @@ height:94vh;
   .push-right{
     margin:20px;
     margin-left:0;
+    z-index:0;
   }
 
   .about-me{
