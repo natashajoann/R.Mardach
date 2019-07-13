@@ -22,6 +22,7 @@ img {
 a{
   text-decoration: none;
   color: rgb(60,60,60);
+  font-size:20px;
 }
 
 
@@ -416,11 +417,12 @@ background-size:cover;
 
 /* contact  */
 .contact{
-  padding: 10rem 5rem 5rem;
+  padding: 8rem 5rem 2rem;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
   background-position:bottom left;
+  height:94vh;
 }
 .email-info{
   padding: 7rem 5rem 9rem;
