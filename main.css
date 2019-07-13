@@ -427,10 +427,10 @@ background-size:cover;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
-  background-position:right;
+  background-position:bottom right;
 }
 .email-info{
-  padding: 0 8rem;
+  padding: 5rem 2rem 0;
   text-align: center;
   margin-bottom: 38px;
 }
@@ -458,7 +458,7 @@ textarea{
 .contact h2{
   margin-bottom:15px;
   line-height:25px;
-  width:85%;
+  text-align:center;
 }
 
 .contact p{
