@@ -7,7 +7,6 @@
 body {
   color: rgb(60,60,60);
   max-width:100%;
-  background-color:#fafafa;
 }
 
 .text-right{
@@ -603,14 +602,15 @@ footer{
 }
 
 /* Blog Layout */
-.blog-layout{
-  padding:1rem 3rem 3rem;
-  background-color:#fafafa;
+
+.background-img-blog{
+background-image:url("images/backgroundimg.png");  
 }
 
-.blog-menu{
-  background-color:#fafafa;
+.blog-layout{
+  padding:1rem 3rem 3rem;
 }
+
 
 .blog-posts h2{
   margin-bottom:25px;
@@ -643,8 +643,15 @@ footer{
 }
 
 .post-preview{
+  background-color:#f4f2eceb;
+  padding: 1rem 0;
+  border-radius:5px;
+}
+
+.post-preview img{
   width:80%
 }
+
 
 
 
