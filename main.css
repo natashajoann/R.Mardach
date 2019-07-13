@@ -427,10 +427,10 @@ background-size:cover;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
-  background-position:bottom right;
+  background-position:bottom left;
 }
 .email-info{
-  padding: 5rem 2rem 0;
+  padding: 7rem 5rem 9rem;
   text-align: center;
   margin-bottom: 38px;
 }
