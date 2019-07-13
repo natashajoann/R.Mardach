@@ -478,7 +478,7 @@ footer{
 
 
 /* ANIMATE CSS */
-/* @keyframes fadeInLeft {
+@keyframes fadeInLeft {
   from {
     opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -600,7 +600,7 @@ footer{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
   animation-duration:4s;
-} */
+}
 
 /* Blog Layout */
 .blog-layout{
