@@ -6,7 +6,7 @@ banner-heading: All Posts
 
 <section class="grid blog-posts">
   <h2 class="col-12 centered"> Featured Posts </h2>
-
+<div class="post-background">
 {% for post in site.posts %}
   <div class="post-preview col-4_md-6_sm-12 centered">
     <img src="{{post.featured_image}}"/>
@@ -14,6 +14,7 @@ banner-heading: All Posts
       <span class="blog-author"><p> by {{post.author}}</p></span>
       <p> {{post.description}}</p>
       <a href="{{post.url}}"> Read More</a>
+</div>
 </div>
 
 {% endfor %}
