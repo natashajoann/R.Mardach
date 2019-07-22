@@ -201,9 +201,12 @@ h1, h2, h3, h4{
   width:22%;
   margin:auto;
   text-decoration:none;
-  border-bottom:2px solid rgb(60,60,60);
   margin-top:3rem;
   line-height:28px;
+}
+
+.fa-angle-double-down{
+
 }
 
 .signup-box h4:hover{
@@ -489,6 +492,45 @@ footer{
 
 
 /* ANIMATE CSS */
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;
