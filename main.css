@@ -174,7 +174,7 @@ h1, h2, h3, h4{
 }
 
 .main-nav a{
-  font-size:20px;
+  font-size:17px;
   margin-top:40px;
 }
 
@@ -400,7 +400,7 @@ color:#b0a0cb;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 139%;
+  top: 150%;
   width: auto;
   padding: 16px;
   color: rgb(60,60,60);
