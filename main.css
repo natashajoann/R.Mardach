@@ -198,10 +198,11 @@ h1, h2, h3, h4{
 }
 
 .button-title h4{
-  padding:9px;
-  width:40%;
+  width:30%;
   margin:auto;
   text-decoration:none;
+  border-bottom:2px solid rgb(60,60,60);
+  margin-top:3rem;
 
 }
 
