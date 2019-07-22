@@ -198,12 +198,12 @@ h1, h2, h3, h4{
 }
 
 .button-title h4{
-  width:30%;
+  width:22%;
   margin:auto;
   text-decoration:none;
   border-bottom:2px solid rgb(60,60,60);
   margin-top:3rem;
-
+  line-height:28px;
 }
 
 .signup-box h4:hover{
