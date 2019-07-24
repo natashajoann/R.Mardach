@@ -434,7 +434,10 @@ background-size:cover;
 
 /* contact  */
 .contact{
-  padding: 9rem 5rem 2rem;
+  padding:5rem 0rem 5rem;
+  margin:7rem 6rem;
+  border-radius:5px;
+  background-color:#f4f2eceb;
 }
 .contactbackground-img{
   background-image:url("images/backgroundimg.png");
