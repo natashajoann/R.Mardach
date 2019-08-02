@@ -226,6 +226,9 @@ padding: 0 7rem;
 
 .dividerimg{
   background-image:url("/images/dra_mardach.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:5rem;
 }
 
 
