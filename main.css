@@ -168,9 +168,6 @@ h1, h2, h3, h4{
   margin-top:40px;
 }
 
-.main-title{
-  margin:0 6rem;
-}
 
 
 /* title */
@@ -187,17 +184,15 @@ h1, h2, h3, h4{
   margin-bottom:24px;
 }
 
-.button-title h4{
-  width:22%;
-  margin:auto;
-  text-decoration:none;
-  margin-top:3rem;
-  line-height:28px;
+.button-title{
+border: 2px black solid;
+padding: 1rem;
 }
 
 
 .button-title:hover{
 color:#b0a0cb;
+border: 2px solid #b0a0cb;
 }
 
 /* About */
