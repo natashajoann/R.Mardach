@@ -235,6 +235,7 @@ padding: 0 7rem 5rem;
   background-size:cover;
   padding:13rem;
   margin-bottom:-30px;
+  z-index:1;
 }
 
 
