@@ -222,7 +222,11 @@ padding: 0 7rem 5rem;
 .push-up{
   padding:2rem;
   margin-top:-30px;
+  z-index:1;
 }
+
+.push-down{
+margin-bottom:-30px;}
 
 .paralax h3{
   margin:7rem 3rem;
@@ -234,7 +238,6 @@ padding: 0 7rem 5rem;
   background-position:center;
   background-size:cover;
   padding:13rem;
-  margin-bottom:-30px;
   z-index:1;
 }
 
