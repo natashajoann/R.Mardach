@@ -173,7 +173,7 @@ h1, h2, h3, h4{
 /* title */
 
 .signup-box{
-  padding:6rem 10.5rem 11rem;
+  padding:6rem 10.5rem 10rem;
   font-size:29px;
   line-height:52px;
   text-align:center;
@@ -184,15 +184,19 @@ h1, h2, h3, h4{
   height:100vh;
 }
 
+.fixed-landing{
+  background-color:#d0b5e04d;
+}
+
 .signup-box h2{
   margin-bottom:24px;
-  color:#2c1142;
+  color:#241232;
 }
 
 .button-title{
-border: 2px #2c1142 solid;
+border: 2px #241232 solid;
 padding: 1rem;
-color:#2c1142;
+color:#241232;
 background-color:#cea9eb47;
 }
 
