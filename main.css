@@ -220,15 +220,20 @@ padding: 0 7rem;
 
 /* divider paralax */
 .push-up{
-  padding:5rem;
+  padding:2rem;
   margin-top:-30px;
+}
+
+.paralax h2{
+  margin: 3rem;
 }
 
 .dividerimg{
   background-image:url("/images/dra_mardach.jpg");
   background-position:center;
   background-size:cover;
-  padding:5rem;
+  padding:13rem;
+  margin-bottom:-30px;
 }
 
 
