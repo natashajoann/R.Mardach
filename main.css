@@ -21,7 +21,7 @@ img {
 
 a{
   text-decoration: none;
-  color: #9370c0;
+  color: #2c1142;
   font-size:20px;
 }
 
@@ -180,13 +180,20 @@ h1, h2, h3, h4{
   margin-top:6rem;
 }
 
+.sign-up{
+  height:100vh;
+}
+
 .signup-box h2{
   margin-bottom:24px;
+  color:#2c1142;
 }
 
 .button-title{
-border: 2px black solid;
+border: 2px #2c1142 solid;
 padding: 1rem;
+color:#2c1142;
+background-color:#cea9eb47;
 }
 
 
