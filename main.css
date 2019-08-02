@@ -265,6 +265,10 @@ padding: 0 7rem 5rem;
   padding:3rem;
 }
 
+.border-right{
+  border-right:2px solid black;
+}
+
 /* contact  */
 .contact{
   padding:5rem 0rem 5rem;
