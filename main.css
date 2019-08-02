@@ -165,7 +165,7 @@ h1, h2, h3, h4{
 
 .main-nav a{
   font-size:17px;
-  margin-top:40px;
+  margin-top:5rem;
 }
 
 
@@ -173,7 +173,7 @@ h1, h2, h3, h4{
 /* title */
 
 .signup-box{
-  padding:6rem 10.5rem 10rem;
+  padding:5rem 10.5rem 7.45rem;
   font-size:29px;
   line-height:52px;
   text-align:center;
@@ -238,6 +238,7 @@ z-index:1;
 .paralax h3{
   margin:7rem 3rem;
   text-align:center;
+  color:#241232;
 }
 
 .dividerimg{
