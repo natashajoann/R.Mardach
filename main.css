@@ -664,11 +664,19 @@ background-position:right;
 }
 
 .service-info{
-padding:1rem 2rem;
+padding:0;
 }
 
 .services h2{
   margin-bottom:15px;
+}
+
+.dividerimg{
+  padding:0;
+}
+
+.services{
+  padding:2rem;
 }
 
   /* blog page */
