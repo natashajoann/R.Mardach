@@ -245,9 +245,10 @@ z-index:1;
 }
 
 .paralax h3{
-  margin:7rem 3rem;
+  margin:5rem 2rem;
   text-align:center;
-  color:#241232;
+  color:#d0b944;
+  font-size:45px;
 }
 
 .dividerimg{
