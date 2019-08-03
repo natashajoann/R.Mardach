@@ -235,7 +235,6 @@ padding:1rem 5rem 5rem;
 
 /* divider paralax */
 .push-up{
-  padding:2rem;
   margin-top:-30px;
   z-index:1;
 }
@@ -277,17 +276,19 @@ z-index:1;
 
 .services-title h2{
   text-align:center;
-  margin-left:3rem;
-  width:90%;
-  padding: 2rem;
+  padding: 1rem;
+  font-size:40px
+}
 
+.services span{
+  margin-left:40px;
 }
 
 .service-info{
   padding:3rem;
 }
 
-.service-inspo span{
+.service-info span{
   color:#d0b944;
 }
 
