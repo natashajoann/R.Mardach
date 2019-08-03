@@ -467,7 +467,7 @@ background-position:right;
 padding:0;
 }
 
-.services h2{
+.services p{
   margin-bottom:15px;
 }
 
@@ -476,7 +476,7 @@ padding:0;
 }
 
 .services{
-  padding:2rem;
+  padding:2rem 2rem 4rem;
 }
 
   /* blog page */
