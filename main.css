@@ -277,10 +277,11 @@ z-index:1;
 .services-title h2{
   text-align:center;
   padding: 1rem;
-  font-size:40px
+  font-size:40px;
+  line-height: 33px;
 }
 
-.service-title span{
+.services-title span{
   margin-left:40px;
 }
 
@@ -477,6 +478,10 @@ padding:0;
 
 .services{
   padding:2rem 2rem 4rem;
+}
+
+.services-title span{
+  margin-left:0;
 }
 
   /* blog page */
