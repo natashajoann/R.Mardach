@@ -485,7 +485,10 @@ background-position:right;
   .signup-box{
   margin-left:0;
   margin-right:0;
-  padding:0;
+  }
+
+  .sign-up{
+      padding:0;
   }
 
   .about-info{
