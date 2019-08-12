@@ -179,9 +179,6 @@ h1, h2, h3, h4{
   padding:11rem;
 }
 
-.padded-9{
-  padding:9rem;
-}
 
 .push-right{
   margin-right:-30px;
@@ -200,7 +197,6 @@ h1, h2, h3, h4{
 }
 
 .sign-up{
-  height:80vh;
   padding-bottom:0;
   padding:1rem 5rem 0 3rem;
 }
