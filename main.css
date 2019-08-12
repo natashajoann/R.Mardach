@@ -204,7 +204,6 @@ h1, h2, h3, h4{
 .fixed-landing{
   background-color:#d0b5e04d;
   margin-top:-86px;
-  z-index:10;
 }
 
 .signup-box h2{
@@ -486,6 +485,7 @@ background-position:right;
   .signup-box{
   margin-left:0;
   margin-right:0;
+  padding:0;
   }
 
   .about-info{
