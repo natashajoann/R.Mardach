@@ -197,7 +197,6 @@ h1, h2, h3, h4{
   font-size:29px;
   line-height:52px;
   text-align:center;
-  margin-top:6rem;
 }
 
 .sign-up{
@@ -209,7 +208,7 @@ h1, h2, h3, h4{
 
 .fixed-landing{
   background-color:#d0b5e04d;
-  margin-top:-90px;
+  margin-top:-86px;
   z-index:10;
 }
 
