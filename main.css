@@ -470,7 +470,26 @@ background-position:right;
 
   /* title page */
   .signup-box{
-    padding:5rem 20px;
+    padding:14rem 2rem;
+  }
+
+  .title-img1, .padded-9{
+    display:none;
+  }
+
+  .fixed-landing h2{
+    font-size:47;
+  }
+
+  .fixed-landing{
+    margin-left:0;
+    margin-right: 0;
+    padding: 0rem;
+  }
+
+  .signup-box{
+  margin-left:0;
+  margin-right:0;
   }
 
   .about-info{
