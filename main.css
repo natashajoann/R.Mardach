@@ -172,6 +172,21 @@ h1, h2, h3, h4{
 
 /* title */
 
+.title-img1{
+  background-image:url("/images/jodie-stallard-624513-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
+.push-right{
+  margin-right:-30px;
+}
+
+.push-left{
+  margin-left:-15px;
+  margin-top:-20px;
+}
+
 .signup-box{
   padding:5rem 10.5rem 7.45rem;
   font-size:29px;
@@ -179,14 +194,15 @@ h1, h2, h3, h4{
   text-align:center;
   margin-top:6rem;
 }
-
+/*
 .sign-up{
   height:100vh;
-}
+} */
 
 .fixed-landing{
   background-color:#d0b5e04d;
-  height:100vh;
+  /* height:100vh; */
+  z-index:10;
 }
 
 .signup-box h2{
@@ -208,7 +224,12 @@ border: 2px solid #b0a0cb;
 }
 
 /* About */
-
+.service-info p{
+  font-size:20px;
+}
+.about1{
+  font-size:30px;
+}
 
 .about-info{
 padding:1rem 5rem 5rem;
