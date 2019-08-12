@@ -422,6 +422,10 @@ background-position:right;
   margin:20px 0;
 }
 
+.main-blog-nav a{
+  font-size:17px;
+}
+
 .main-blog-nav a:hover{
   color:#b0a0cb;
 }
