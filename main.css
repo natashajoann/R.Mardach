@@ -193,7 +193,7 @@ h1, h2, h3, h4{
 }
 
 .signup-box{
-  padding:5rem 10.5rem 7.45rem;
+  padding:3rem;
   font-size:29px;
   line-height:52px;
   text-align:center;
@@ -202,8 +202,7 @@ h1, h2, h3, h4{
 .sign-up{
   height:80vh;
   padding-bottom:0;
-  padding:3rem;
-  padding-left:5rem;
+  padding:1rem 5rem 0 3rem;
 }
 
 .fixed-landing{
