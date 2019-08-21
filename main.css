@@ -205,6 +205,15 @@ h1, h2, h3, h4{
   display:none;
 }
 
+.title-info h2{
+  font-size:23px;
+}
+
+.title-info{
+  text-align:center;
+  padding:4rem;
+}
+
 .fixed-landing{
   background-color:#d0b5e04d;
   margin-top:-86px;
