@@ -190,7 +190,7 @@ h1, h2, h3, h4{
 }
 
 .signup-box{
-  padding:3rem;
+  padding:9rem;
   font-size:29px;
   line-height:52px;
   text-align:center;
@@ -206,11 +206,12 @@ h1, h2, h3, h4{
 
 .title-info h2{
   font-size:23px;
+  margin:2rem;
 }
 
 .title-info{
   text-align:center;
-  padding:4rem;
+  padding:2rem;
 }
 
 .fixed-landing{
