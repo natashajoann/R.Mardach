@@ -173,7 +173,7 @@ h1, h2, h3, h4{
 /* title */
 
 .title-img1{
-  background-image:url("/images/jodie-stallard-624513-unsplash.jpg");
+  background-image:url("/images/david-clode-75CxJTYeUYs-unsplash.jpg");
   background-position:center;
   background-size:cover;
   padding:11rem;
@@ -296,6 +296,15 @@ z-index:1;
   padding:13rem;
   z-index:1;
 }
+
+.dividerimg2{
+  background-image:url("/images/david-clode-75CxJTYeUYs-unsplash.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:13rem;
+  z-index:1;
+}
+
 
 
 /* Services */
