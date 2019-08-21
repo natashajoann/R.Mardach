@@ -201,6 +201,10 @@ h1, h2, h3, h4{
   padding:1rem 5rem 0 3rem;
 }
 
+.signup-box h2, .signup-box a{
+  display:none;
+}
+
 .fixed-landing{
   background-color:#d0b5e04d;
   margin-top:-86px;
@@ -301,7 +305,7 @@ z-index:1;
 
 .services-title h2{
   text-align:center;
-  padding: 1rem;
+  padding: 3rem;
   font-size:40px;
   line-height: 33px;
 }
@@ -490,6 +494,10 @@ background-position:right;
 
   .sign-up{
       padding:0;
+  }
+
+  .signup-box h2, .signup-box a{
+    display:block;
   }
 
   .about-info{
