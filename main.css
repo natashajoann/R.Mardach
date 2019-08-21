@@ -467,6 +467,10 @@ background-position:right;
     display:block;
   }
 
+  .title-info{
+    display:none;
+  }
+
   .blog-menu{
     display:none;
   }
